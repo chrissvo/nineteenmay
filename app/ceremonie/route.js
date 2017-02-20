@@ -1,4 +1,5 @@
+// ceremonie/route
 import Ember from 'ember';
+const { Route } = Ember;
 
-export default Ember.Route.extend({
-});
+export default Route;
