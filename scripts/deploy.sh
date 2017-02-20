@@ -10,12 +10,12 @@ source scripts/functions.sh
 
 echo -e "Hello Christian\n"
 
-current_version=`npm version | grep me | cut -f2 -d"'"`
+current_version=`npm version | grep nineteenmay | cut -f2 -d"'"`
 
 if [ -z "$current_version" ]; then
   error "Something went wrong while detecting the current version"
 else
-  echo -e "\nMe is currently on version: ${CYA}$current_version${RES}"
+  echo -e "\nNineteenmay is currently on version: ${CYA}$current_version${RES}"
 fi
 
 read -p "Do you wish to version bump? " -r
