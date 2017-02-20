@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('daggast');
+  this.route('ceremonie');
+  this.route('feest');
 });
 
 export default Router;
