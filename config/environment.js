@@ -16,7 +16,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    GOOGLE: {},
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
@@ -43,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.GOOGLE.TRACKING_ID = 'UA-92307591-1';
   }
 
   return ENV;
