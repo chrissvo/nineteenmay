@@ -1,5 +1,6 @@
 // components/google-maps-location/styles
-& {
+& { 
+  max-width: 500px;
   .google-maps {
     position: relative;
     padding-bottom: 60%; // This is the aspect ratio
