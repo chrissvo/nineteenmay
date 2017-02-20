@@ -7,6 +7,25 @@ body {
   background-size: cover;
   background-color: black;
 }
+.container {
+  margin: 10%;
+}
+.box {
+  color: white;
+  max-width: 750px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+p {
+  line-height: 25px;
+}
 .button {
   cursor: pointer;
   background-color: lightgreen;
