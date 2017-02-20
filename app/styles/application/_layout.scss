@@ -1,14 +1,11 @@
 // styles/application/layout
-.background {
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
+body {
+  background: url('/assets/images/rijk-van-de-keizer.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
 }
 .button {
   cursor: pointer;
