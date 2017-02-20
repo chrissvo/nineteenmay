@@ -10,3 +10,16 @@
   min-width: 100%;
   min-height: 100%;
 }
+.button {
+  cursor: pointer;
+  background-color: lightgreen;
+  color: white;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-weight: 400;
+  &:hover {
+    background-color: green;
+  }
+}
