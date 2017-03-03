@@ -26,9 +26,12 @@ h2 {
 p {
   line-height: 25px;
 }
+a {
+  color: darken(lightgreen, 20%);
+}
 .button {
   cursor: pointer;
-  background-color: lightgreen;
+  background-color: darken(lightgreen, 20%);
   color: white;
   border-radius: 2px;
   padding: 10px;
