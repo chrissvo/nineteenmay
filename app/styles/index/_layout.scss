@@ -1,7 +1,10 @@
 // styles/index/layout
+.title-wrapper {
+  text-align: center;
+}
 .title, .subtitle {
   color: white;
-  text-align: center;
+  display: inline-block;
 }
 .title {
   font-size: 100px;

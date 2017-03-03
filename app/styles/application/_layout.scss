@@ -43,3 +43,21 @@ a {
     background-color: green;
   }
 }
+h1, h2, p, table {
+  position: relative;
+  z-index: 1;
+}
+h1::before, h2::before, p::before, table::before {
+  content: "";
+  position: absolute;
+  top: -2%;
+  left: -2%;
+  width: 104%;
+  height: 104%;
+  opacity: 0.2;
+  z-index: -1;
+  background-color: black;
+}
+.button p::before {
+  content: none;
+}
