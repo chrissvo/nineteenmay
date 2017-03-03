@@ -4,36 +4,42 @@
     <th>Tijd</th>
     <th>Onderdeel</th>
     <th>Locatie</th>
+    <th>Parkeren</th>
   </tr>
   {{#if (eq type 'daggast')}}
-	  <tr>
-	    <td>12:00</td>
-	    <td>Ontvangst daggasten</td>
-	    <td>Schermerstraat</td>
-	  </tr>
-	{{/if}}
-	{{#unless (eq type 'feest')}}
-		<tr>
-	    <td>14:30</td>
-	    <td>Ceremonie</td>
-	    <td>Stadhuis Haarlem</td>
-	  </tr>
- 	{{/unless}}
- 	{{#if (eq type 'daggast')}}
-	  <tr>
-	    <td>16:30</td>
-	    <td>Borrel + felicitaties + foto's</td>
-	    <td>Rijk van de Keizer</td>
- 	  </tr>
-	  <tr>
-	    <td>17:30</td>
-	    <td>Diner</td>
-	    <td>Rijk van de Keizer</td>
-	  </tr>
-	{{/if}}
+    <tr>
+      <td>12:00</td>
+      <td>Lunch met de daggasten</td>
+      <td>Schermerstraat 26 Rood</td>
+      <td>Parkeergarage Raaks</td>
+    </tr>
+  {{/if}}
+  {{#unless (eq type 'feest')}}
+    <tr>
+      <td>14:30</td>
+      <td>Ceremonie</td>
+      <td>Stadhuis Haarlem</td>
+      <td>Parkeergarage Raaks</td>
+    </tr>
+  {{/unless}}
+  {{#if (eq type 'daggast')}}
+    <tr>
+      <td>16:30</td>
+      <td>Borrel</td>
+      <td>Rijk van de Keizer</td>
+      <td>Op locatie</td>
+    </tr>
+    <tr>
+      <td>17:30</td>
+      <td>Diner</td>
+      <td>Rijk van de Keizer</td>
+      <td>Op locatie</td>
+    </tr>
+  {{/if}}
   <tr>
     <td>20:30</td>
     <td>Feest</td>
     <td>Rijk van de Keizer</td>
+    <td>Op locatie</td>
   </tr>
 </table>
